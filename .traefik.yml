@@ -1,0 +1,12 @@
+displayName: Sysneting GeoIP Filter
+type: middleware
+middleware: geoip
+import: github.com/sysneting/geoip
+summary: Filter requests based on geolocation data
+testData:
+  apiKey: "your-api-key"
+  dbPath: "/etc/geo/geo.mmdb"
+  mode: "blacklist"
+  countries: ["US", "CA"]
+  updateInterval: "24h"
+  trustHeaders: true

@@ -1,0 +1,25 @@
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Database files
+*.mmdb
+
+# IDE files
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
